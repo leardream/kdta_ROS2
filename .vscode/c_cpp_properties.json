@@ -1,14 +1,13 @@
 {
     "configurations": [
         {
-            "name": "kdta_ros2",
+            "name": "KDTA_ROS2",
             "includePath": [
                 "/usr/include/**"
             ],
             "intelliSenseMode": "linux-gcc-x64",
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c17",
-            "cppStandard": "c++14"
+            "cppStandard": "c++23",
+            "cStandard": "c23"
         }
     ],
     "version": 4

@@ -1,5 +1,0 @@
-/home/jh0933/다운로드/kdta_ROS2/opencv/ch02/CMakeFiles/aprint.dir
-/home/jh0933/다운로드/kdta_ROS2/opencv/ch02/CMakeFiles/movewindows.dir
-/home/jh0933/다운로드/kdta_ROS2/opencv/ch02/CMakeFiles/windows.dir
-/home/jh0933/다운로드/kdta_ROS2/opencv/ch02/CMakeFiles/edit_cache.dir
-/home/jh0933/다운로드/kdta_ROS2/opencv/ch02/CMakeFiles/rebuild_cache.dir

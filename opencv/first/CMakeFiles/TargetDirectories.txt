@@ -1,3 +1,0 @@
-/home/jh0933/다운로드/kdta_ROS2/opencv/first/CMakeFiles/helloworld.dir
-/home/jh0933/다운로드/kdta_ROS2/opencv/first/CMakeFiles/edit_cache.dir
-/home/jh0933/다운로드/kdta_ROS2/opencv/first/CMakeFiles/rebuild_cache.dir

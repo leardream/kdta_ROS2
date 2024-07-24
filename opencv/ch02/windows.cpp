@@ -1,23 +1,24 @@
-#include <iostream>
 #include "opencv2/opencv.hpp"
+#include <iostream>
 using namespace std;
 using namespace cv;
 
-string folder = "/home/jh0933/다운로드/kdta_ROS2/opencv/data/";
+string folder = "/home/aa/kdta_ROS2/opencv/data/";
+
 int main()
 {
     Mat img;
-    img = imread(folder + "lenna.bmp");
-    namedWindow("lenna");
+    img = imread(folder + "lena.bmp");
+    namedWindow("lena");
     imshow("lena", img);
     int key = waitKey(0);
     cout << key << endl;
-    //Size szie;
-    //size.height = 100;
-    //size.width = 100;
-    destroyWindow("lenna");
-    //resizeWindow("lenna", szie);
-    imshow("lenna", img);
+    // Size size;
+    // size.height = 100;
+    // size.width = 100;
+    destroyWindow("lena");
+    imshow("lena", img);
+    // resizeWindow("lena", size);
     waitKey(0);
     return 0;
 }
