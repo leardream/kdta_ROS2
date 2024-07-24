@@ -4,20 +4,17 @@
 ## 2024 - 07 - 23
 
 ---
-1 차시
+기본세팅
 
 -vmware 설치
 -ubuntu 22.04 설치
 -terminator 설치
 -git 설치
-
-
-2 차시
-
-
 -vscode 설치
 -github 연동
 
+실습
 
-3 차시
+
+
     
