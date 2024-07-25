@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-std::string folder = "/home/aa/kdta_ROS2/opencv/first/";
+std::string folder = "/home/jh0933/다운로드/kdta_ROS2/opencv/data/";
 
 int main()
 {
