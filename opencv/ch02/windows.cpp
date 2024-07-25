@@ -3,8 +3,7 @@
 using namespace std;
 using namespace cv;
 
-string folder = "/home/aa/kdta_ROS2/opencv/data/";
-
+string folder = "/home/jh0933/다운로드/kdta_ROS2/opencv/data/";
 int main()
 {
     Mat img;
