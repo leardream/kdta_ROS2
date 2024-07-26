@@ -5,6 +5,9 @@
         "*.world": "xml",
         "*.xacro": "xml",
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
     }
 }
