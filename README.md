@@ -49,7 +49,7 @@
 
 
 ---
- #### 2024 - 07 - 25
+ # 2024 - 07 - 25
     - 마우스(mouse) 이벤트 구현    
         - tMouseCallback 함수사용
     - Trackbar를 만들어 이미지 변수값조정
@@ -64,7 +64,7 @@
         - FileStorage::WRITE 로 입력
         - FileStorage::READ 로 출력
     - 챕터과제
-    
+
 
 
     
