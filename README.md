@@ -64,6 +64,15 @@
     - FileStorage::WRITE 로 입력
     - FileStorage::READ 로 출력
 - 챕터과제
+    - Scalar(색상 값 저장), vector(vec3d를 사용 마우스 클릭위치의 BRG값을 저장), flag(마우스 클릭상태를 저장)등 으로 구조체 만들기
+    - 이미지 출력후 마우스포인트에 사각형 만들기
+    - 이미지 클릭시 BRG값 출력
+    - ESC키(keycode == 27) 입력시 JSON 파일로 저장
+
+- 평가
+    - 구조체 구성및 이미지출력은 어찌어찌 구현
+
+    
 
 
 
