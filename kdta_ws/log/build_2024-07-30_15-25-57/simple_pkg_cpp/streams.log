@@ -1,0 +1,61 @@
+[0.054s] Invoking command in '/home/jh0933/kdta_ws/build/simple_pkg_cpp': /usr/bin/cmake /home/jh0933/kdta_ws/src/simple_pkg_cpp -DCMAKE_INSTALL_PREFIX=/home/jh0933/kdta_ws/install/simple_pkg_cpp
+[0.248s] -- The C compiler identification is GNU 11.4.0
+[0.415s] -- The CXX compiler identification is GNU 11.4.0
+[0.462s] -- Detecting C compiler ABI info
+[0.669s] -- Detecting C compiler ABI info - done
+[0.699s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.700s] -- Detecting C compile features
+[0.709s] -- Detecting C compile features - done
+[0.717s] -- Detecting CXX compiler ABI info
+[0.963s] -- Detecting CXX compiler ABI info - done
+[0.980s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.982s] -- Detecting CXX compile features
+[0.986s] -- Detecting CXX compile features - done
+[0.990s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.465s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.720s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.896s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.925s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.952s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.002s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.267s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.274s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.600s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.698s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.792s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.831s] -- Looking for pthread.h
+[3.126s] -- Looking for pthread.h - found
+[3.127s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.402s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.403s] -- Found Threads: TRUE  
+[3.885s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.048s] Error parsing '/home/jh0933/kdta_ws/src/simple_pkg_cpp/package.xml':
+[4.180s] Traceback (most recent call last):
+[4.180s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[4.180s]     main()
+[4.181s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[4.181s]     raise e
+[4.181s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[4.181s]     package = parse_package_string(
+[4.181s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[4.181s]     pkg.validate(warnings=warnings)
+[4.181s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[4.182s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[4.182s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jh0933/kdta_ws/src/simple_pkg_cpp/package.xml':
+[4.182s] Invalid email "jh0933.naver.com" for person "jh0933"
+[4.230s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.231s]   execute_process(/usr/bin/python3
+[4.231s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.231s]   /home/jh0933/kdta_ws/src/simple_pkg_cpp/package.xml
+[4.231s]   /home/jh0933/kdta_ws/build/simple_pkg_cpp/ament_cmake_core/package.cmake)
+[4.231s]   returned error code 1
+[4.232s] Call Stack (most recent call first):
+[4.232s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.232s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[4.232s]   CMakeLists.txt:26 (ament_lint_auto_find_test_dependencies)
+[4.232s] 
+[4.232s] [0m
+[4.233s] -- Configuring incomplete, errors occurred!
+[4.233s] See also "/home/jh0933/kdta_ws/build/simple_pkg_cpp/CMakeFiles/CMakeOutput.log".
+[4.247s] Invoked command in '/home/jh0933/kdta_ws/build/simple_pkg_cpp' returned '1': /usr/bin/cmake /home/jh0933/kdta_ws/src/simple_pkg_cpp -DCMAKE_INSTALL_PREFIX=/home/jh0933/kdta_ws/install/simple_pkg_cpp
